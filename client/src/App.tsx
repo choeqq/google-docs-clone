@@ -1,5 +1,6 @@
 import React from "react";
 import TextEditor from "./components/TextEditor";
+import Header from "./components/Header";
 import {
   BrowserRouter as Router,
   Routes,
@@ -11,7 +12,8 @@ import { v4 as uuidV4 } from "uuid";
 const App: React.FC = () => {
   return (
     <>
-      <Router>
+      <Header />
+      {/* <Router>
         <Routes>
           <Route
             path="/"
@@ -19,7 +21,7 @@ const App: React.FC = () => {
           />
           <Route path="/documents/:id" element={<TextEditor />} />
         </Routes>
-      </Router>
+      </Router> */}
     </>
   );
 };
