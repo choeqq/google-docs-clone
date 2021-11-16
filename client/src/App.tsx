@@ -1,6 +1,8 @@
 import React from "react";
 import TextEditor from "./components/TextEditor";
 import Header from "./components/Header";
+import NewDocSection from "./components/NewDocSection";
+import DocsHistorySection from "./components/DocsHistorySection";
 import {
   BrowserRouter as Router,
   Routes,
@@ -13,6 +15,8 @@ const App: React.FC = () => {
   return (
     <>
       <Header />
+      <NewDocSection />
+      <DocsHistorySection />
       {/* <Router>
         <Routes>
           <Route

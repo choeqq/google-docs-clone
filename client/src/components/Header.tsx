@@ -56,6 +56,7 @@ const Wrapper = styled.header`
     height: 25px;
     width: 25px;
     border: none;
+    color: rgba(0, 0, 0, 0.7);
   }
   .desc {
     height: 40px;
